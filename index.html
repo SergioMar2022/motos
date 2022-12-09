@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INICIO</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://kit.fontawesome.com/8a815a169a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    
+   
+
+    <header id="menu">         
+        <nav>
+            <a href="index.html"><img src="img/logo.jpg" class="logo" alt="logo" width="200" height="50"></a>
+            <ul>
+                <li><a href="index.html">INICIO</a></li>
+                <a class="nav-link" href="./productos.html">PRODUCTOS</a>
+                <a class="nav-link" href="./contactos.html">CONTACTOS</a>
+                <a class="nav-link" href="./ubicación.html">UBICACIÓN</a>
+               
+            </ul>
+        </nav>            
+    </header>
+
+
+
+    <section class="presentacion">
+        <div class="flex-item1">
+            <h1>VENTA, REPARACIONES y REPUESTOS DE MOTOS HONDA</h1>
+            <p>
+            Venta y Service oficial. Repuestos de todos los modelos. Distribuidora oficial en todo el país.    
+            </p>
+         
+        </div>
+        <div class="flex-item2">
+            <img src="img/moto.jpg" alt="caratula" width="500" height="400">
+        </div>
+    </section>
+
+
+    <div class="wrapper">
+        <section class="servicios" >
+            <div class="titulo-servicios">
+                <h2>Viví la experiencia de manejar una Honda</h2>
+                <p>
+                    Hacer felices a nuestros clientes y mejoramos sus vidas. Siempre nos esforzamos para desarrollar nuestras ideas y cumplir nuestras ambiciones, compartiendo el placer y la emoción de lograr esto con todo el mundo.    
+                </p>
+            </div>
+            <div class="tipo-servicios">
+                <div>
+                    <i class="fas fa-drafting-compass"></i>
+                    <h3>Precisión</h3>
+                    <p>
+                    Mantenemos la precisión y potencia que tu moto necesita.    
+                    </p>
+                </div>
+                <div>
+                    <i class="fas fa-laptop"></i>
+                    <h3>Diseño</h3>
+                    <p>
+                    Motos con diseños únicos.    
+                    </p>
+                </div>
+                <div>
+                    <i class="fas fa-cart-arrow-down"></i>
+                    <h3>Comercial</h3>
+                    <p>
+                    Número uno de ventas en el mercado.     
+                    </p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p class="footer-content">
+            Honda &copy;Todos los derechos reservados 2022
+        </p>
+    </footer>
+    <script>
+       const menu = document.getElementById('menu');
+       window.onscroll = function(){
+           if(window.pageYOffset>10){
+               menu.style.backgroundColor='#fff';
+           }
+           else{
+               menu.style.backgroundColor='initial';
+           }
+       }
+    </script>
+</body>
+</html>
